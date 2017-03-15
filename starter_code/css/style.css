@@ -9,7 +9,6 @@ Developer @GA in Denver
 /******************************************
 /* SETUP
 /*******************************************/
-
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -45,11 +44,13 @@ Developer @GA in Denver
 /* BASE STYLES
 /*******************************************/
 
+
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open sans', sans-serif;
+     max-width: 100%;
       
 }
 button {
@@ -79,7 +80,6 @@ p {
 }
 
 header {
-  
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   color: white;
@@ -88,13 +88,34 @@ header {
 main{
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  padding: 40px 0 0 135px;
-  width: 43%;
+  padding: 40px 0 30px 135px;
+  width: 540px;
+}
+div {
+  text-align: center;
+}
+section {
+  color: white;
+  padding-top: 30px;
+
 }
 
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100% 100%;
+  margin-bottom: 0px;
+}
 footer {
-
+text-align: center;
+color: white;
+background-color: black;
+font-size: 9px;
+font-weight: 500;
+padding-bottom: 30px;
 }
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -108,10 +129,12 @@ footer {
   font-weight: 600;
   padding-top: 40px
 }
+button{
+  border-radius: 5px;
+}
 #getit {
   font-size: 20px;
   font-weight: 900;
-  border-radius: 5px;
   background-color: yellow;
   color: navy;
   margin: 50px 0px 100px 0px;
@@ -123,5 +146,34 @@ ul {
 
 .semi-bold {
   font-weight: 600;
+}
+#quote {
+  font-style: italic;
+  font-size: 20px;
+  display: inline-block;
+  width: 400px;
+}
+#SignUpNow {
+  color: white;
+  background-color: #00094f;
+  font-weight: 900;
+  font-size: 15px;
+
+}
+.background-color {
+  background-color: yellow;
+  padding: 18px;
+  margin-bottom: 0px;
+}
+
+#yellow {
+  margin-top: 0px;
+  padding-top: 30px;
+  color: yellow;
+  font-size: 24px;
+  font-weight: 900;
+}
+#social-media {
+  padding: 0 30px 0 30px;
 }
 
